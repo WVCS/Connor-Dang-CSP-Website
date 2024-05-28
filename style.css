@@ -1,3 +1,24 @@
-body {
+nav {
+  list-style-type: none;
+  background-color: cornflowerblue;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  color: white;
+  text-align: center;
+}
 
+li{
+  display: inline;
+  padding: 18px;
+}
+li:hover{
+  background-color: lightskyblue;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
